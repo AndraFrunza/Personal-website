@@ -1,0 +1,53 @@
+body{
+    margin: auto;
+    background-image: url("main_page_background.jpg");
+    background-size: cover;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0);
+    text-align: right;
+    padding: 20px; 
+}
+
+#home_button{
+    color:white;
+    text-decoration: none;
+}
+
+#text_center{
+    text-align: center;
+    margin-top:90px;
+    font-size: 20px;
+}
+
+#link2, a.link2:link, a.link2:visited{
+    color: white;
+    text-decoration: none;
+    padding: 14px 25px;
+    display: inline-block;
+    text-align: center;
+
+}
+#link2, a.link2:hover, a.link2:active {
+    background-color: rgba(200, 0, 255, 0.953);
+  }
+
+#footer{
+    background-color: rgba(0, 0, 0, 0.241);
+    text-align: center;
+    letter-spacing: 1px;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:80px;   
+}
+
+h1{
+    color: #fff;
+    text-shadow: 0 0 5px #fff, 0 0 10px rgb(225, 213, 213), 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
